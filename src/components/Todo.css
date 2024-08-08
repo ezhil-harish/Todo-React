@@ -1,0 +1,41 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 32, 95);
+}
+.container{
+    padding: 10px;
+    min-height: 550px;
+    min-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.container h3{
+    font-size: 25px;
+}
+input{
+    height: 28px;
+    width: 280px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    outline: none;
+    padding: 10px;
+    margin-right: 5px;
+}
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: orange;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+}
